@@ -39,9 +39,9 @@ This template serves as a starting point for integrating third-party OAuth servi
     *   Create a `.env.local` file in the root of your project and add the following environment variables:
 
     ```
-    GOOGLE_CLIENT_ID=<your_google_client_id>
-    GOOGLE_CLIENT_SECRET=<your_google_client_secret>
-    NEXTAUTH_SECRET=<a_random_secret_string> # Generate a strong secret
+    AUTH_GOOGLE_ID=<your_google_client_id>
+    AUTH_GOOGLE_SECRET=<your_google_client_secret>
+    NEXTAUTH_SECRET=<a_random_secret_string> # Generate a strong secret using `npx auth secret`
     NEXTAUTH_URL=http://localhost:3000 # Your application URL
     ```
 
